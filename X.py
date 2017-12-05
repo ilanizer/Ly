@@ -13,8 +13,8 @@ import urllib3
 import tempfile
 import requests,tempfile
 
-cl = LINETCR.LINE() #Selfbot
-cl.login(token="EnfC98NCkW0tpO2QcSp0.0ZH+TP86zTa89shFIBifqa.qyp/oweBBobze0h/ZYQyAXxMOUM0FDR3YIUSy1scKSA=")
+cl = pro6.LINE() #Selfbot
+cl.login(token="EnFdwmH2yzajddcOizQ9.YjpsgtGpwHpwoEoMX+D0/q.CtryzzoGsdyGNOINKQs4ModZIuX0wj7mM31obf8BRGs=")
 cl.loginResult()
 
 print u"login success"
@@ -116,9 +116,9 @@ helo=""
 
 KAC=[cl]
 mid = cl.getProfile().mid
-Bots =[mid,"ud3387fb69f3a66d03cf521df89b20540"]
-admsa =["ud3387fb69f3a66d03cf521df89b20540"]
-admin = ["ud3387fb69f3a66d03cf521df89b20540"]
+Bots =[mid,"uaf57a04b8abca47760eb49da8db18d14"]
+admsa =["uaf57a04b8abca47760eb49da8db18d14"]
+admin = ["uaf57a04b8abca47760eb49da8db18d14"]
 
 wait = {
     'contact':False,
